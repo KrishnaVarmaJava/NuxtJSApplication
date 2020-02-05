@@ -1,6 +1,6 @@
-# nuxtjsapp
+# myNuxtApp
 
-> My fabulous Nuxt.js project
+> Hrm Project
 
 ## Build Setup
 
