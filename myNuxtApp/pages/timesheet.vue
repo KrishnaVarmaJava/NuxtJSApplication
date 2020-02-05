@@ -1,12 +1,12 @@
-<template>
-  <v-row>
+<template style="background: #D1C4E9">
+  <v-row >
     <v-col>
-      <v-sheet height="400">
+      <v-sheet style="background: #D1C4E9">
         <v-calendar
-          color="primary"
+          color="#D1C4E9"
           type="day"
         >
-          <template v-slot:day-header="{ present }">
+          <template clolor="#D1C4E9" v-slot:day-header="{ present }">
             <template
               v-if="present"
               class="text-center"

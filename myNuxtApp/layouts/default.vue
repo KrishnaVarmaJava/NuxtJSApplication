@@ -6,10 +6,10 @@
     height="100px"
     tile
   >
-    <v-toolbar dense>
+    <v-toolbar style="background: #673AB7" dense >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title >Title</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -25,7 +25,7 @@
         <v-icon>mdi-dots-vertical</v-icon>
       </v-btn>
       <template v-slot:extension>
-        <v-tabs align-with-title>
+        <v-tabs color="#BA68C8" grow="true" align-with-title>
           <v-tab to='/'>Profile</v-tab>
           <v-tab to='/timesheet'>Time Sheet</v-tab>
           <v-tab to='/leaves'>Leaves</v-tab>
